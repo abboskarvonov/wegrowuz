@@ -1,0 +1,46 @@
+.line {
+  background-color: #ff7272;
+  width: 100%;
+  height: 2px;
+}
+.footer-contact {
+  border-radius: 1rem;
+  border: 1px solid #ff7272;
+  text-align: center;
+}
+.footer-contact img {
+  width: 50px;
+  filter: invert(100%);
+  margin-bottom: 1rem;
+}
+.footer-contact-item:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.footer-contact p {
+  color: #ff7272;
+}
+.footer-form h1 {
+  font-weight: 300;
+  color: #fff;
+}
+.copyright {
+  color: #ccc;
+}
+.powered {
+  text-align: right;
+  color: #aaa;
+  font-size: smaller;
+}
+.powered a {
+  color: #888;
+}
+.scroll-up {
+  position: absolute;
+  right: 3rem;
+  bottom: 2rem;
+  background-color: #ff7272;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+}
